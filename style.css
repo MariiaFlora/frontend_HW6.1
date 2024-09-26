@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
 }
 .table {
     margin: 30px;
@@ -25,23 +26,19 @@ th,
     width: 200px; 
     height: 200px;
 }
-.yellow {
-    background-color: rgb(255, 251, 0);
-    border: 8px solid black; 
+.col--main { 
+    background-color: white;
 }
-.red {
+
+.col--aditional{
+    background-color: yellow;
+}
+.col--secondary {
     background-color: red;
-    border: 8px solid black; 
 }
-.black {
+.col--filled {
     background-color: black;
-    border: 8px solid black; 
 }
-.blue {
+.col--unique {
     background-color: blue;
-    border: 8px solid black; 
-}
-.orange {
-    background-color: rgb(255, 251, 0);
-    border: 8px solid black; 
 }
